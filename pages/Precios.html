@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Practicando maquetado" />
+  <meta name="keywords" content="herramientas de bootstrap, tablas, listas, botones, imagenes, flex" />
+  <meta name="author" content="Luciano Navarro" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a83f77fa83.js" crossorigin="anonymous"></script>
+  <title>RollingBank</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="NavBarHome">RollingBank</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBank"
+          aria-controls="navbarBank" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarBank">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/Precios.html">Precios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Seguridad.html">Seguridad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">Robo o Extravio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="backgceleste text-white text-center py-5">
+      <div>
+        <p class="fs-1">Un banco sin costos para vos</p>
+      </div>
+    </section>
+    <section class="container">
+      <article class="row my-5">
+          <div class="d-flex flex-nowrap border pt-3">
+              <div class="col-md-1 d-flex justify-content-center">
+                <i class="far fa-user fa-3x text-primary"></i>
+              </div>
+              <div class="col-md-10">
+                <h4>Apertura de cuenta</h4>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem soluta ipsum enim atque tenetur iusto dignissimos cum deleniti.</p>
+              </div>
+              <div class="col-md-1 ms-auto">
+                <p class="fs-5 btn btn-primary">$0</p>
+              </div>
+          </div>
+          <div class="d-flex flex-nowrap border pt-3">
+              <div class="col-md-1 d-flex justify-content-center">
+              <i class="fas fa-tools fa-3x text-warning"></i>
+              </div>
+              <div class="col-md-10">
+              <h4>Mantenimiento</h4>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem soluta ipsum enim atque tenetur iusto dignissimos cum deleniti.</p>
+              </div>
+              <div class="col-md-1 ms-auto">
+              <p class="fs-5 btn btn-primary">$0</p>
+              </div>
+         </div>
+         <div class="d-flex flex-nowrap border pt-3">
+              <div class="col-md-1 d-flex justify-content-center">
+              <i class="fas fa-money-check-alt fa-3x text-danger"></i>
+              </div>
+              <div class="col-md-10">
+              <h4>Transferencias</h4>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem soluta ipsum enim atque tenetur iusto dignissimos cum deleniti.</p>
+              </div>
+              <div class="col-md-1 ms-auto">
+              <p class="fs-5 btn btn-primary">$0</p>
+              </div>
+         </div>
+         <div class="d-flex flex-nowrap border pt-3">
+              <div class="col-md-1 d-flex justify-content-center">
+              <i class="fas fa-money-bill-wave fa-3x text-success"></i>
+              </div>
+              <div class="col-md-10">
+              <h4>Pago de servicios</h4>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem soluta ipsum enim atque tenetur iusto dignissimos cum deleniti.</p>
+              </div>
+              <div class="col-md-1 ms-auto">
+              <p class="fs-5 btn btn-primary">$0</p>
+              </div>
+         </div>
+         <div class="d-flex flex-nowrap border pt-3">
+              <div class="col-md-1 d-flex justify-content-center">
+              <i class="far fa-credit-card fa-3x text-info"></i>
+              </div>
+              <div class="col-md-10">
+              <h4>Tarjeta de débito</h4>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem soluta ipsum enim atque tenetur iusto dignissimos cum deleniti.</p>
+              </div>
+              <div class="col-md-1 ms-auto">
+              <p class="fs-5 btn btn-primary">$0</p>
+              </div>
+         </div>
+       </article>
+    </section>
+  </main>
+  <footer class="text-secondary" id="ColorFooter">
+    <!-- Home + Links redes -->
+    <div class="container d-flex wrap py-3">
+      <div class="mx-2">
+        <a href="index.html" id="FooterHome">
+          <h5 class="text-white">RollingBank</h5>
+        </a>
+      </div>
+      <div>
+        <a href="#" class="text-secondary ms-3">
+          <i class="fab fa-facebook-square"></i></a>
+        <a href="#" class="text-secondary ms-1">
+          <i class="fab fa-twitter-square"></i></a>
+        <a href="#" class="text-secondary ms-1">
+          <i class="fab fa-instagram-square"></i></a>
+      </div>
+    </div>
+    <!-- Columnas Navegacion -->
+    <section class="d-flex flex-nowrap container">
+      <div class="row align-items-start container">
+        <div class="col-sm-12 col-md-3">
+          Navegación
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">¿Quienes Somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/Precios.html">Precios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Seguridad.html">Seguridad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">Ayuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">Robo o Extravio</a>
+          </ul>
+        </div>
+        <!-- Columna Legales -->
+        <div class="col-sm-12 col-md-3">
+          Legales
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">Regimen de transparencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">Usuario bancario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">Conducta bancaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">Estados contables</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/Error404.html">Terminos y condiciones</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Columnas imag us financ -->
+        <div class="col-sm-12 col-md-3">
+          <a href="#">
+            <img class="mt-5 img-fluid" src="../img/usuariosfinancieros.png" alt="Usuarios financieros" width="180"></a>
+        </div>
+        <!-- Columna unite -->
+        <div class="col-sm-12 col-md-3">
+          <a href="#">
+            <img class="my-2 img-fluid" src="../img/app store.png" alt="App Store" width="180"></a>
+          <a href="#">
+            <img class="my-2 img-fluid rounded-2" src="../img/google play.png" alt="Google Play" width="180"></a>
+        </div>
+    </section>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

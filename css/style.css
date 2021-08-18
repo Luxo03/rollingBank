@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+ 
+#NavBarHome {
+    font-family: 'Fredoka One', cursive
+}
+ 
+#FooterHome {
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+}
+ 
+#ColorFooter {
+    background-color: rgb(52, 58, 64);
+}
+ 
+.decnone {
+    color: gray;
+    text-decoration: none;
+}
+ 
+.aumtam1 {
+    font-size: 80px;
+    color: rgb(220, 53, 69);
+}
+ 
+.aumtam2 {
+    font-size: 80px;
+    color: rgb(0, 123, 255);
+}
+ 
+.aumtam3 {
+    font-size: 80px;
+    color: rgb(40, 167, 69);
+}
+
+.aumtam4 {
+    font-size: 45px;
+    color: rgb(220, 53, 69);
+}
+ 
+.aumtam5 {
+    font-size: 45px;
+    color: rgb(0, 123, 255);
+}
+ 
+.aumtam6 {
+    font-size: 45px;
+    color: rgb(23, 162, 184)
+}
+ 
+.aumtam7 {
+    font-size: 45px;
+    color: rgb(40, 167, 69);
+}
+ 
+.backgceleste {
+    background-color: rgb(0, 123, 255);
+}
+
+@media all and (max-width: 576px) {
+    .img-resp {
+        height: 230px;
+        object-fit: cover;
+    }
+}
